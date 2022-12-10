@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IT</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/3c880d7cdd.js" crossorigin="anonymous"></script>
+
+  <!-- <style>
+    .container {
+      width: 100%;
+      height: 100vh;
+      background: grey;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    form {
+      background: white;
+      display: flex;
+      flex-direction: column;
+      padding: 2vw 4vw;
+      width: 90%;
+      max-width: 600px;
+      border-radius: 10px;
+
+    }
+
+    form h3 {
+      color: grey;
+      font-weight: 800;
+      margin-bottom: 20px;
+
+    }
+
+    form input,
+    form textarea {
+      border: 0;
+      margin: 10px 0;
+      padding: 20px;
+      outline: none;
+      background: grey;
+      font-size: 16px;
+    }
+
+    form button {
+      padding: 15px;
+      background: orange;
+      color: white;
+      font-size: 18px;
+      border: 0;
+      outline: none;
+      cursor: pointer;
+      width: 150px;
+      margin: 20px auto 0;
+      border-radius: 30px;
+    }
+  </style> -->
+    <link rel="stylesheet" href="ContactForm.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+
+<body>
+  <nav class="new-nav">
+    <img src="https://upload.wikimedia.org/wikipedia/en/c/cf/Iiit-una-logo.png" alt="iiit una" />
+    <div class="name">
+      <h1>भारतीय सूचना प्रौद्योगिकी संस्थान, ऊना</h1>
+      <h3>Indian Institute of Information Technology, Una</h3>
+    </div>
+    <img src="https://www.iitb.ac.in/sites/www.iitb.ac.in/themes/touchm/logo_75.png" alt="azadi ka amrit mahotsav" />
+  </nav>
+  <div class="new-nav-links">
+    <a href="index.html" class="nav-link ">Home</a>
+    <div class="nav-link dropdown">About
+      <div class="dropdown-content">
+        <ul>
+          <a href="campus.html">
+            <li> Campus</li>
+          </a>
+          <a href="reach.html">
+            <li> How to Reach</li>
+          </a>
+          <a href="campuslife.html">Students Life</a>
+          <a href="academics.html">
+            <li> Academics</li>
+          </a>
+
+        </ul>
+      </div>
+    </div>
+    </a><a href="courses.html" class="nav-link dropdown">Courses
+    </a>
+    <a href="/news.html" class="nav-link">Convocation</a><a href="/placement.html" class="nav-link">Placements</a><a
+      href="/contact.html" class="nav-link">Contact
+      us</a>
+  </div>
+  <!-- <div class="container">
+    <form onsubmit="sendEmail(); reset(); return false;">
+      <h3>GET IN TOUCH</h3>
+      <input type="text" id="name" placeholder="Enter Name" required>
+      <input type="email" id="email" placeholder="Enter Email" required>
+      <input type="text" id="phone" placeholder="Phone no" required>
+      <textarea id="message" cols="30" rows="4" placeholder="how can we help you"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script>
+    function sendEmail() {
+      Email.send({
+        Host: "smtp.gmail.com",
+        Username: "sk3423770@gmail.com",
+        Password: "password",
+        To: '21330iiitu.ac.in',
+        From: document.getElementById("ëmail").value,
+        Subject: "new contact form",
+        Body: "Name:" +document.getElementById("name").value
+        + "<br> Email:" + document.getElementById("email").value
+        + "<br> Phone no:" + document.getElementById("phone").value
+        + "<br> Message:" + document.getElementById("message").value
+      }).then(
+        message => alert("message sent successfully")
+      );
+    }
+  </script> -->
+
+  <div class="container">
+  
+    <h1>Complaint Form</h1>
+
+    <div class="form-container">
+    
+        <!-- <div class="info"> -->
+
+            <!-- <div class="pack">
+               <div class="text">
+                <h1>Get In Touch</h1></div>
+            
+
+            <div class="text">
+                <h2>Email</h2><br>
+                <span>Example@gmail.com</span>
+            </div>
+
+            <div class="text">
+                <h2>Contact-Number</h2><br>
+                <span>+91-00000000000</span>
+            </div>
+            
+            <div class="text">
+                <h2>Address</h2><br>
+                <span>City-Delhi, State-Delhi, India</span>
+            </div>
+
+            <div class="social-button">
+                <button> <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></button>
+                <button> <a href=""><i class="fa fa-github" aria-hidden="true"></i> </a></button>
+                <button> <a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i> </a></button>
+                <button> <a href=""> <i class="fa fa-linkedin-square" aria-hidden="true"></i></a></button>
+            </div> -->
+
+        <!-- </div>  -->
+        <!-- end of Pack class -->
+
+        <!-- </div> -->
+     <!-- info class End -->
+        <form action="https://formspree.io/f/xqkjrwqb" method="POST">
+           
+            <!-- <div class="icon">
+             <div class="sign"><i class="fa fa-user-circle-o" aria-hidden="true"></i></div>
+            </div> -->
+
+          <div class="input-control">
+            <label for="">Name</label><br>
+            <input type="text" name="name" placeholder="Enter Your Name" id="Name">
+          </div>
+          <!-- input control End -->
+           
+
+          <div class="input-control">
+            <label for="">Email</label><br>
+            <input type="email" name="email" placeholder="Enter Your Email" id="Email">
+          </div>
+          <!-- input control End -->
+
+          <div class="input-control">
+            <label for="">Contact-Number</label><br>
+            <input type="number" name="contact" placeholder="Enter Your Contact Number" id="Contact">
+          </div>
+          <!-- input control End -->
+
+
+          <div class="input-control">
+            <label for="">Subject</label><br>
+            <input type="text"  name="subject" placeholder="Enter Your Subject" id="Subject">
+          </div>
+          <!-- input control End -->
+         
+          <div class="input-control">
+            <label for="">Message</label><br>
+            <textarea  id="message"  name="message" rows="3" placeholder="Enter Your Message"></textarea>
+          </div>
+
+           <div class="input-control">
+            <button type="submit">submit</button>
+           </div>
+        </form>
+        <!-- form end -->
+    </div>
+    <!-- Form container End -->
+  </div>
+
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script>
+    function Mail(){
+
+      let name =document.getElementById("Name").value;
+      let email =document.getElementById("Email").value;
+      let  contact =document.getElementById("Contact").value;
+      let subject =document.getElementById("Subject").value;
+      let message =document.getElementById("Message").value;
+      Email.send({
+        Host: "smtp.gmail.com",
+        Username: "sk3423770@gmail.com",
+        Password: "B413C6E2D31715EA0C381DEAE2360F2F6AB1",
+        To: '21330iiitu.ac.in',
+        Form:"sk3423770@gmail.com",
+        Subject: "new contact form",
+        Body:"and this is body"
+      }).then(
+        message=> alert(message)
+      );
+    }
+  </script>
+
+  <footer style="background:url(footer\ back.svg);">
+    <div class="content">
+      <div class="top">
+        <div class="logo-details">
+          <span>INDIAN INSTITUTE OF INFORMATION TECHNOLOGY UNA</span>
+        </div>
+        <div class="media-icons">
+          <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href=""><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+
+        </div>
+      </div>
+
+      <div class="link-boxes">
+        <ul class="box">
+          <li class="link_name">About</li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contact-us.html">Contact us</a></li>
+          <li><a href="About-us.html">About us</a></li>
+        </ul>
+        <ul class="box">
+          <li class="link_name">Quick Links</li>
+          <li><a href="index.html">Admission Form</a></li>
+          <li><a href="contact-us.html">Notice Board</a></li>
+          <li><a href="placement.html">Placement Statics</a></li>
+        </ul>
+        <ul class="box">
+          <li class="link_name">Student's Corner</li>
+          <li><a href="index.html">Fees Payment</a></li>
+          <li><a href="contact-us.html">Complaint section</a></li>
+          <li><a href="About-us.html">About us</a></li>
+        </ul>
+        <ul class="box-1">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3402.5655687846292!2d76.18850141440156!3d31.48113465622981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391adb198180014f%3A0xbf76347093a3aa9a!2sIndian%20Institute%20of%20Information%20Technology%20(IIIT)%20Una!5e0!3m2!1sen!2sin!4v1667841204364!5m2!1sen!2sin"
+            width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+</body>
+
+</html>
